@@ -69,7 +69,6 @@ def ComputerUI(root):
     Computerui.mainloop()
 
 def check_win(board):
-        """التحقق من وجود فائز"""
         for row in board:
             if row[0] == row[1] == row[2] != " ":
                 return row[0]
